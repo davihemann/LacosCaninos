@@ -1,0 +1,130 @@
+/* Style CSS */
+* {
+    margin:0;
+    padding: 0;
+}
+
+body{
+    width: 1280px;
+
+
+}
+
+a:link{ /* Remove underline do link*/
+    text-decoration: none;
+}
+
+/* HEADER & MENU ----------------- */
+h1#logo-texto{
+    font-family:  Montserrat-ExtraBold;
+    font-size: 40px;
+    color: #D81515;
+    position: absolute;
+    left: 126px;
+    top: 54px;
+    text-align: left;
+}
+
+#logo-laco{
+
+    position: absolute;
+    top: 46px;
+    left: 66px;
+}
+
+header {
+    height: 124px;
+    border-bottom: 9px solid #3D2DEF;
+    text-align: center;
+}
+
+
+nav#menu {
+    display: block;
+}
+
+nav#menu ul{
+    list-style: none;
+    position: absolute;
+    top: 72px;
+    left: 657px;
+}
+
+nav#menu li{
+    display: inline-block;
+    color: #3D2DEF;
+    font-size: 20px;
+    font-family: Montserrat-ExtraBold;
+    margin-right: 15px;
+    
+}
+
+nav#menu a{ color:#3D2DEF;}
+
+nav#menu #loginbtn{
+    border: 4px solid #3D2DEF;
+    border-radius: 30px;
+    padding-left:15px;
+    padding-right:15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* Section Apresentação --------- */
+section#apresentacao{
+    border-bottom: 5px solid #3D2DEF;
+    height: 848px;
+}
+
+section#apresentacao h1{
+    float:left;
+    font-family: Montserrat-ExtraBold;
+    font-size: 32px;
+    color: #3D2DEF;
+    margin-left: 153px;
+    margin-top: 185px;
+}
+
+section#apresentacao p{
+    position: absolute;
+    font-family: Montserrat-Regular;
+    font-size: 24px;
+    color: #05013A;
+    margin-top: 316px;
+    margin-left: 153px;
+}
+
+#cachorro1elipse{
+    float: right;
+    margin-top: 44px;
+    margin-right: 91px;
+}
+#cachorro2elipse{
+    float: right;
+    margin-top: 215px;
+    margin-right: -24px;
+}
+
+section#apresentacao button{
+    background-color: #3D2DEF;
+    width: 234px;
+    height: 48px;
+    float: left;
+    font-family: Montserrat-ExtraBold;
+    font-size: 16px;
+    color: #FFFFFF;
+    border-radius: 30px;
+    border: none;
+    margin-top: 192px;
+    margin-left: 138px;
+    cursor: pointer;
+}
+
+section#apresentacao a#btn-queroapadrinhar{
+    float:left;
+    color: #3D2DEF;
+    font-family: Montserrat-Extrabold;
+    font-size: 20px;
+    margin-top: 202px;
+    margin-left: 23px;
+}
