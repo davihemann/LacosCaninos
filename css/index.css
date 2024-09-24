@@ -1,13 +1,15 @@
 /* Style CSS */
 * {
-    margin:0;
+    margin:0 auto;
     padding: 0;
+    
 }
 
 body{
-    width: 1280px;
-
-
+    /* block-size: fit-content; */
+    display: block; 
+	position: relative; 
+	width: 1280px; 
 }
 
 a:link{ /* Remove underline do link*/
