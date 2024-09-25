@@ -13,6 +13,7 @@ body{
     display: block; 
 	position: relative; 
 	width: 1280px;
+
 }
 
 a:link{ /* Remove underline do link*/
@@ -187,19 +188,14 @@ section#apresentacao a#btn-queroapadrinhar{
     padding-bottom: 5px;
 }
 
-.card{
-    margin-top: 5%;
-    width:300px ;
-    height: 480px;
-    border-radius: 60px;
-    border: 6px solid #3D2DEF;
-    justify-content: center;
-    text-align: center;
-    padding: 20px;
-    font-family: 'Montserrat', sans-serif;
-    float: left;
-    margin: 30px;
+.section {
+    display: block; 
+	position: relative; 
+	width: 1280px;
+    height: 100%;
+    margin-left: 12%;
 }
+
 
 #titulo{
     font-family: 'Montserrat', sans-serif;
@@ -210,41 +206,73 @@ section#apresentacao a#btn-queroapadrinhar{
     color: #D81515;
 }
 
+.card{
+    width: 300px;
+    height: 480px;
+    border: 4px solid #3D2DEF;
+    border-radius: 30px;
+    padding: 15px;
+    text-align: center;
+    float: left;
+    margin: 25px;
+}
+
 .card img{
-    border-radius: 20px ;
-    
+    border-radius: 30px;
+    width: 295px;
+    height: 253px;
+}
+
+.card h1{
+    margin: 5px;
+    font-size: 50px;
+    color: red;
+}
+
+.card h3{
+   font-size: 25px;
+    width: 300px;
+    padding: 10px;
+
 }
 
 .card button{
-    background: #FFFFFF;
-    border-radius: 25px;
-    width: 50%;
+    font-family: 'Montserrat', sans-serif;
+    width: 45%;
     height: 10%;
-    padding: 5%;
-    margin-top: 10px;
-    border: 4px solid #3D2DEF;
-}
-
-#B1 {
-    color: #ffff;
-    font-size: 15px;
-    font-weight:600;
-    text-align: center;
     background-color: #3D2DEF;
-    font-family: 'Montserrat', sans-serif;
-}
-
-#B2{
-    color: #3D2DEF;
-    font-size: 15px;
+    padding: 10px;
+    margin: 5px;
+    border: 4px solid #3D2DEF;
+    border-radius: 30px;
+    color: #FFFFFF;
     font-weight: 600;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-   
+}
+
+.card button a {
+    color: #FFFFFF;
+}
+
+ .link-ap{
+   color: red;
+   font-weight: 600;
+}
+
+#menu #cor{
+    color: red;
 }
 
 
+.ficha{
+    width: 1280px;
+    background: red;
+}
 
+
+.sobre{
+    border-radius: 4px solid red;
+    border-radius: 15px;
+}
 
 @media screen and (max-width:1044px ){
 
@@ -743,12 +771,16 @@ section#rodape-info p{
 
 /* Footer --------------------------- */
 footer{
+    float: left;
+    position: sticky;
     height: 476px;
     background-color: #3D2DEF;
 	width: 100%;
+    margin-top: 3%;
 }
 
 #logo-laco-footer{
+    
     float: left;
     margin-left: 57px;
     margin-top: 88px;
@@ -809,11 +841,263 @@ footer ul#contato2 li{
 }
 
 footer p#copy{
+    float: left;
     font-family: Montserrat-Light;
     color: white;
     font-size: 13px;
-    position: absolute;
+    position: sticky;
     text-align: center;
     bottom: 15px;
     margin-left: 460px;
+    margin-top: 150px
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+
+.container{
+    width: 90%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #3D2DEF;
+    border-radius: 30px;
+    margin-top: 2%;
+    
+   
+}
+
+.form-img{
+    width: 50%;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    
+}
+
+.form-img img{
+    width: 80%;
+    height: 100%;
+    
+}
+
+.form1{
+    width: 50%;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+    background-color: #ffff;
+    padding: 2rem;
+    margin: 5%;
+    border-radius: 30px;
+  
+}
+
+.form-header{
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: left;
+}
+
+.login-button{
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+}
+
+.login-button button{
+    border: none;
+    background-color: #3D2DEF;
+    padding: 0.4rem 1rem;
+    border-radius:5px;
+    cursor: pointer;
+}
+
+.login-button  button a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #ffff;
+}
+
+.form-header h1::after{
+    content: '';
+    display: block;
+    width: 5rem;
+    height: 0.3rem;
+    background-color: #3D2DEF;
+}
+
+.input-group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.input-box{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+}
+
+.input-box input{
+    margin: 0.5rem 0;
+    padding: 0.8rem 1.2rem;
+    border:2px solid #3D2DEF;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c
+}
+
+.input-box input:hover{
+    background-color: #eeeeee75;
+}
+
+.input-box input:focus-visible{
+    outline: 1px solid #3D2DEF;
+}
+
+
+.input-box label{
+    font-size: o.75rem;
+    font-weight: 600;
+    color: #3D2DEF;
+}
+
+.input-box input::placeholder{
+    color:#000000be
+}
+
+.continue-button button{
+    width: 100%;
+    margin-top: 1rem;
+    padding: 0.62rem;
+    border: none;
+    background: #3D2DEF;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.continue-button button:hover{
+    background-color: #716AC2;
+}
+
+.continue-button button a{
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 500;
+    color: #ffff
+}
+
+
+
+@media screen and (max-width: 1200px){
+    .form-img{
+        display: none;
+    }
+    .container{
+        width: 50%;
+    }
+    .form1{
+        width: 100%;
+        border-radius: 30px;
+        margin: 10px;
+        
+    }
+
+    .corpo{
+        background: #3D2DEF
+    };
+}
+
+
+@media screen and (max-width:1064px){
+  .container{
+    width: 90%;
+    height: auto;
+  }  
+
+
+  .input-group{
+    flex-direction: column;
+    overflow: scroll;
+    flex-wrap: nowrap;
+    max-height: 10rem;
+
+  }
+
+}
+
+
+.containerficha{
+    width: 70%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    margin-top: 2%;
+    background-color: #F5AC5A;
+   
+}
+
+.form-img{
+    width: 70%;
+    height: 80%;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    
+}
+
+.form-img img{
+    width: 80%;
+    height: 100%;
+    border-radius: 70px;
+}
+
+.form1{
+    width: 50%;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+    background-color: #ffff;
+    padding: 2rem;
+    margin: 5%;
+    border-radius: 30px;
+  
+}
+
+.form-header h1::after{
+    content: '';
+    display: block;
+    width: 5rem;
+    height: 0.3rem;
+    background-color:#F5AC5A; ;
+}
+
+.saibamais h5{
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    width: 250px;
+    color: #3D2DEF;
+    margin-bottom: 2%;
+    padding-bottom: 10px;
+}
+
+
+.saibamais ul li {
+    list-style: none;
+    font-family: Montserrat, sans-serif;
+    margin: 6px;
+    font-weight: 400;
 }
