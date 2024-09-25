@@ -133,6 +133,12 @@ section#apresentacao a#btn-queroapadrinhar{
 }
 
 /* Section Fazer a Diferença --------- */
+section#fazer_diferenca {
+    height: 880px;
+    border-bottom: 5px solid #3D2DEF;
+}
+
+
 section#fazer_diferenca h2{
     font-family: Montserrat-ExtraBold;
     font-size: 40px;
@@ -170,11 +176,115 @@ section#fazer_diferenca h2{
     font-family: Montserrat-ExtraBold;
     font-size: 16px;
     color: #FFFFFF;
-    width: 134px;
+    width: 150px;
     height: 48px;
     border-radius: 30px;
     border: none;
     cursor: pointer;
     margin-top: 105px;
-    margin-left: 275px;
+    margin-left: 265px;
+}
+
+#container2 h3 {
+    font-family: Montserrat-Bold;
+    font-size: 36px;
+    color: #D81515;
+    margin-left: 325px;
+    margin-top:47px;
+    
+}
+
+#container2 p{
+    font-family: Montserrat-Regular;
+    font-size: 24px;
+    color: black;
+    text-align: right;
+    position: absolute;
+    margin-left: 115px;
+}
+
+#container2 button{
+    background-color: #3D2DEF;
+    font-family: Montserrat-ExtraBold;
+    font-size: 16px;
+    color: #FFFFFF;
+    width: 150px;
+    height: 48px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    margin-top: 130px;
+    margin-left: 265px;
+}
+
+#container3 h3 {
+    font-family: Montserrat-Bold;
+    font-size: 36px;
+    float: right;
+    position: relative;
+    color: #D81515;
+    margin-top:-475px;
+    margin-right: 175px;
+    
+}
+
+#container3 p{
+    font-family: Montserrat-Regular;
+    font-size: 24px;
+    color: black;
+    float: right;
+    position: relative;
+    margin-right: 90px;
+    margin-top: -420px;
+}
+
+#container3 button{
+    background-color: #3D2DEF;
+    font-family: Montserrat-ExtraBold;
+    font-size: 16px;
+    color: #FFFFFF;
+    width: 180px;
+    height: 48px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    float: right;
+    margin-top: -318px;
+    margin-right: 200px;
+}
+
+#container4 h3 {
+    font-family: Montserrat-Bold;
+    font-size: 36px;
+    float: right;
+    position: relative;
+    color: #D81515;
+    margin-top: -223px;
+    margin-right: 125px;
+    
+}
+
+#container4 p{
+    font-family: Montserrat-Regular;
+    font-size: 24px;
+    color: black;
+    float: right;
+    position: relative;
+    margin-right: 68px;
+    margin-top: -175px;
+}
+
+#container4 button{
+    background-color: #3D2DEF;
+    font-family: Montserrat-ExtraBold;
+    font-size: 16px;
+    color: #FFFFFF;
+    width: 220px;
+    height: 48px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    float: right;
+    margin-top: -70px;
+    margin-right: 160px;
 }
