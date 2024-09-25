@@ -366,39 +366,6 @@ section#oquee p{
     float:left;
     position: absolute;
     color:black;
-    margin-left: 150px;
+    margin-left: 155px;
     margin-top: 220px;
-}
-
-#cachorro4{
-    float:right;
-    position: relative;
-    margin-top: -40px;
-    margin-right: 100px;
-}
-
-section#oquee button{
-    background-color: #6E19B0;
-    width: 234px;
-    height: 48px;
-
-    font-family: Montserrat-ExtraBold;
-    font-size: 16px;
-    color: #FFFFFF;
-    border-radius: 30px;
-    border: none;
-    margin-top: 510px;
-    margin-left: 391px;
-    cursor: pointer;
-
-}
-
-section#oquee a#btn-queroapadrinhar{
-    color: #6E19B0;
-    font-family: Montserrat-Extrabold;
-    font-size: 20px;
-    float: left;
-    margin-left: 653px;
-    margin-top: -35px;
-
 }
