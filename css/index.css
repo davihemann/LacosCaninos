@@ -6,10 +6,13 @@
 }
 
 body{
-    /* block-size: fit-content; */
+
+}
+
+#centraliza{
     display: block; 
 	position: relative; 
-	width: 1280px; 
+	width: 1280px;
 }
 
 a:link{ /* Remove underline do link*/
@@ -742,7 +745,7 @@ section#rodape-info p{
 footer{
     height: 476px;
     background-color: #3D2DEF;
-	width: 1280px;
+	width: 100%;
 }
 
 #logo-laco-footer{
